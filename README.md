@@ -11,26 +11,25 @@ A production-ready, full-stack **Complain Management System** built with **FastA
 
 ---
 
-## ✨ Key Features & 50-Marks Breakdown
 
-### 1. Authentication & Authorization (15 Marks)
+### 1. Authentication & Authorization )
 * **Secure Login & Signup:** Powered by OAuth2 Password Bearer (`POST /User_Login` using `application/x-www-form-urlencoded` and `POST /create_user`) with strict frontend & backend validation (Name: 3-30 chars, Password: 8-30 chars).
 * **JWT State Management:** Automatic token handling via Axios interceptors, attaching `Authorization: Bearer <token>` to protected endpoints.
 * **Strict Role-Based Access Control (RBAC):** Separate interfaces and protected routing for **Admin** and **Normal Users**.
 * **Session Security:** Token expiry handling (401 detection) with automatic redirection and `react-hot-toast` notifications.
 
-### 2. Dashboard & Data Management (15 Marks)
+### 2. Dashboard & Data Management 
 * **Role-Specific Dashboards:** Public Home Feed (`GET /`), User Complain Tracker (`GET /ComplainList`), and Admin Control Panel (`GET /admin/allcomplain`).
 * **Advanced Controls:** Instant Search (by ID or text), Category Filtering (`electricity`, `water`, `road`, `garbage`, `internet`, `other`), Multi-criteria Sorting, and Pagination.
 * **UX States:** Dedicated Loading Skeletons, Empty States, and Error Retry Handlers.
 * **Full Admin CRUD:** Create, Edit, Delete complaints, and update statuses (`Progress` / `Complete`).
 
-### 3. Responsive UI & Forms (10 Marks)
+### 3. Responsive UI & Forms 
 * Built using **React**, **Tailwind CSS**, **DaisyUI**, and **React Icons**.
 * Fully responsive across Mobile, Tablet, and Desktop screens.
 * Integrated image file uploader with automated **Base64 conversion** and preview support for reports.
 
-### 4. Routing & User Experience (10 Marks)
+### 4. Routing & User Experience 
 * Clean component structure with custom Breadcrumbs, responsive Navbar, Footer, and confirmation modals for destructive actions (e.g., deletions).
 
 ---
