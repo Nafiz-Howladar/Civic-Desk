@@ -68,7 +68,7 @@ A production-ready, full-stack **Complain Management System** built with **FastA
   * **Email:** `admin@example.com`
   * **Password:** `admin1234`
 * **Normal User Account:**
-  * **Email:** `jubayer@example.com`
+  * **Email:** `user@example.com`
   * **Password:** `12345678`
 
 ---
